@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/egameps
+# catalog-date 2009-11-06 13:29:36 +0100
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-egameps
 Version:	1.1
 Release:	1
@@ -43,6 +49,7 @@ package home page.).
 %doc %{_texmfdistdir}/doc/latex/egameps/README
 %doc %{_texmfdistdir}/doc/latex/egameps/egameps.pdf
 %doc %{_texmfdistdir}/doc/latex/egameps/egameps.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ package home page.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
