@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	LaTeX package for typesetting extensive games
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/egameps
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/egameps
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/egameps.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/egameps.doc.r%{version}.tar.xz
